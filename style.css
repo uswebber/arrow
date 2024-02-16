@@ -117,9 +117,9 @@ flex-wrap: wrap;
     }
     .everythingform{
      display: flex;
-     /* justify-content: space-around; */
-     width: 50%;
-     margin-left: 35%;
+     justify-content: start;
+     width: 20%;
+     /* margin-left: 35%; */
      margin-top: 20%;
     }
     .logo{
@@ -147,14 +147,15 @@ flex-wrap: wrap;
     .routinen{
         display: flex;
         gap: 2px;
-        justify-content: right;
+        justify-content: start;
     }
     .routinencua{
         margin-top: 200px;
-        display: flex;
-        gap: 20%;
+        display: block;
+        gap: 1%;
         font-size: 1.1rem;
-        justify-content: space-between;
+        justify-content: start;
+        width: 20%;
 
         
     }
