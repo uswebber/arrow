@@ -19,7 +19,7 @@ body{
 }
 .allform{
     width: 600px;
-    height:90vh;
+    height:auto;
     border: 10px solid white;
     display: flex;
     justify-content: center;
@@ -67,6 +67,20 @@ body{
     justify-content: center;
     
 }
+/* .ulhome{
+display: flex;
+flex-wrap: wrap;
+}
+.navhome{
+    justify-content: flex-start;
+}
+.divhome{
+    order: 1;
+    text-align: left;
+    width: calc(50% - 12px);
+} */
+
+
 @media screen and (min-width:320px) and (max-width:768px) {
     body{
         background-color: rgb(242,242,242);
@@ -89,7 +103,7 @@ body{
     }
     .allform{
         width: 600px;
-        height:90vh;
+        height:auto;
         border: 10px solid white;
         display: flex;
         justify-content: center;
@@ -103,7 +117,7 @@ body{
     .everythingform{
      display: flex;
      justify-content: center;
-     width: 50%;
+     width: 100%;
     }
     .logo{
         width: 315px;
@@ -123,20 +137,27 @@ body{
     }
     .foothome{
         display: flex;
-        gap: 20px;
-        font-size: 1.5rem;
+        gap:2px;
+        font-size: 1.1rem;
         text-decoration: underline;
     }
     .routinen{
         display: flex;
-        gap: 5px;
+        gap: 2px;
+        justify-content: right;
     }
     .routinencua{
         margin-top: 200px;
         display: flex;
-        gap: 25%;
-        font-size: 1.5rem;
-        justify-content: center;
+        gap: 20%;
+        font-size: 1.1rem;
+        justify-content: space-between;
+
         
     }
+    /* .homecopy{
+        order: 1;
+    text-align: left;
+    width: calc(50% - 12px);
+    } */
 }
